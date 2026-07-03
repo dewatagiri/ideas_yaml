@@ -1,0 +1,21 @@
+# Generated output — changes every run, exclude unless you want history tracked
+ideas.yaml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Secrets — in case you add a Quantpedia session cookie or any API key later
+.env
+*cookie*
+*secret*
+*.key
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/

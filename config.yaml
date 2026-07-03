@@ -1,0 +1,49 @@
+# ideas_intake config
+# Controls what gets pulled and how it's tagged before hitting ideas.yaml
+
+output_path: "./ideas.yaml"
+
+arxiv:
+  enabled: true
+  categories:
+    - "q-fin.TR"   # Trading and Market Microstructure
+    - "q-fin.ST"   # Statistical Finance
+    - "q-fin.PM"   # Portfolio Management
+  max_results_per_category: 25
+  # Only keep abstracts that hit at least one of these (case-insensitive substring match)
+  keyword_filter:
+    - "anomaly"
+    - "factor"
+    - "momentum"
+    - "mean reversion"
+    - "regime"
+    - "funding rate"
+    - "cross-sectional"
+    - "seasonality"
+    - "breakout"
+    - "pivot"
+    - "microstructure"
+    - "crypto"
+    - "cointegration"
+    - "volatility risk premium"
+    - "options"
+    - "on-chain"
+
+quantpedia:
+  enabled: true
+  free_strategies_url: "https://quantpedia.com/strategies/"
+  # NOTE: Quantpedia's page is likely JS-rendered / paywalled beyond the free tier.
+  # This scraper is best-effort. If selectors break (site redesign), it will log
+  # a warning and skip rather than silently returning garbage. Check quantpedia_source.py
+  # SELECTOR CONFIG below if it stops finding results.
+
+# Tags mapped against your live BRUTEFORCE strategy families so new ideas get
+# auto-flagged as "related to X" during triage. Edit as your strategy roster changes.
+strategy_tag_map:
+  bernard_system: ["usdt.d", "stablecoin dominance", "btc dominance", "pivot breakout", "regime filter"]
+  ssl_ar: ["cross-asset momentum", "cross-sectional", "altcoin", "perpetual futures"]
+  dbb: ["regime classifier", "regime-switching", "bollinger band", "volatility regime", "volatility squeeze"]
+  btc_options_pinning: ["options", "pinning", "gamma", "volatility risk premium", "deribit"]
+  alpha_hunter_v2: ["funding rate", "zscore", "mean reversion", "perpetual futures"]
+  orb_fx: ["opening range", "breakout", "session", "fx"]
+  on_chain: ["on-chain", "mvrv", "sopr", "glassnode"]

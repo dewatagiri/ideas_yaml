@@ -1,0 +1,388 @@
+generated_at: '2026-07-02T22:43:05.815944+00:00'
+count: 26
+ideas:
+- source: arxiv
+  category: q-fin.TR
+  title: 'When large trades are not news: Liquidity tail risk and price discovery'
+  url: https://arxiv.org/abs/2607.01198v1
+  published: '2026-07-01'
+  summary: When is a large trade news, and when is it a liquidity shock? We study this question in a sequential
+    competitive limit order book with asymmetric information. In our model, liquidity suppliers observe
+    aggregate order flow but not its decomposition into informed demand and uninformed liquidity demand.
+    We model uninformed order flow with Student-$t$ tails, interpreted as a reduced form for rare liquidity
+    regimes. The tail index of liquidity demand determines how informative large trades are. With thin-tailed
+    noise, large order imbalances are quickly interpreted as private information. With heavy
+  related_strategies: []
+  status: intake
+  id: idea-0001
+- source: arxiv
+  category: q-fin.TR
+  title: 'End-to-End Parametric Portfolio Policies for Cross-Asset Futures Timing: When Do AI Models Beat
+    Simple Rules?'
+  url: https://arxiv.org/abs/2607.00475v1
+  published: '2026-07-01'
+  summary: Timing-based tilts across asset classes can drive much of the risk and return of a diversified
+    cross-asset portfolio. The standard approach forecasts returns and then optimizes weights. We instead
+    study an end-to-end AI-based policy that maps market states directly to portfolio weights, and we
+    then ask when this one-step modeling approach outperforms simple rules-based strategies. We train
+    these policies on the sixteen most liquid CME futures, where an edge is unlikely to be due to illiquidity,
+    using a differentiable Sharpe ratio loss function, and we benchmark them against equal weighting,
+    ri
+  related_strategies: []
+  status: intake
+  id: idea-0002
+- source: arxiv
+  category: q-fin.TR
+  title: 'The Bounce Has No Direction: Sign, Magnitude, and the Microstructure of Equity Return Predictability'
+  url: https://arxiv.org/abs/2606.29591v1
+  published: '2026-06-28'
+  summary: SPY's lag-1 return autocorrelation ($\hatρ(1)=-0.081$, $z=-7.4$) is among the most significant
+    regularities in empirical equity finance, yet the standard variance-ratio (VR) test cannot determine
+    whether it reflects directional reversal or magnitude shrinkage - phenomena with entirely different
+    trading implications. We develop the Fourier-Residue Identity (FRI), which decomposes return autocorrelation
+    into a sign ($k=2$) and a magnitude ($k=4$) channel, each independently testable and neither redundant.
+    Applied to six US instruments over 1993--2026 and a 21-instrument cross-asset panel, the FR
+  related_strategies: []
+  status: intake
+  id: idea-0003
+- source: arxiv
+  category: q-fin.TR
+  title: Time-dependent weighted directed networks of cryptocurrency interaction from high-frequency returns
+  url: https://arxiv.org/abs/2606.25466v1
+  published: '2026-06-24'
+  summary: We investigate the evolving structure of interactions in cryptocurrency markets using a network-based
+    framework constructed from high-frequency price data spanning 2020-2025. Directed and weighted networks
+    are constructed from statistically significant Granger causal relationships between cryptocurrency
+    log-returns, enabling us to quantify the flow of influence across assets. We find that normalized
+    returns exhibit heavy-tailed distributions, consistent with the presence of large intermittent fluctuations
+    and in line with stylized facts of financial markets. The resulting networks display pron
+  related_strategies: []
+  status: intake
+  id: idea-0004
+- source: arxiv
+  category: q-fin.TR
+  title: Empirical Confirmation of the Square-Root Law of Market Impact in a U.S. Large-Cap Equity
+  url: https://arxiv.org/abs/2606.24019v1
+  published: '2026-06-22'
+  summary: 'We test the square-root law (SRL) of market impact on a single U.S. large-capitalisation equity,
+    Apple Inc. (AAPL), using the full Nasdaq TotalView-ITCH market-by-order feed over 178 trading days
+    (2 December 2024 -- 19 August 2025; ~0.5 billion events). Without broker-tagged parent orders, we
+    reconstruct metaorders from the anonymous tape and calibrate impact as $I/σ_D = c\,(Q/V_D)^{1/2}$
+    with the exponent fixed at the universal value $1/2$. We find $c_{\rm raw} = 0.69$ (bias-corrected
+    $c_{\rm eff} = 0.34$), conditional impact tracking $Q^{1/2}$, and a size-distribution tail exponent
+    $β= 1.54 '
+  related_strategies: []
+  status: intake
+  id: idea-0005
+- source: arxiv
+  category: q-fin.TR
+  title: 'Mitigating Adverse Selection in Concentrated Liquidity AMMs with Dynamic Fees: An Agent-Based
+    Model Approach'
+  url: https://arxiv.org/abs/2606.23070v1
+  published: '2026-06-22'
+  summary: Automated Market Makers based on concentrated liquidity, such as Uniswap v3, significantly
+    improve capital efficiency but expose Liquidity Providers (LPs) to adverse selection costs, formalized
+    as Loss-Versus-Rebalancing (LVR). While theoretical literature quantifies these costs, the interplay
+    between realistic blockchain microstructure and endogenous pricing mechanisms remains under-explored.
+    This paper develops a granular Agent-Based Model of a Uniswap v3 pool interacting with a stochastic
+    reference market governed by Heston volatility dynamics. The framework incorporates discrete block
+    prop
+  related_strategies: []
+  status: intake
+  id: idea-0006
+- source: arxiv
+  category: q-fin.TR
+  title: Do Prediction Markets Match Option Prices? Bitcoin Threshold Evidence from Binance and Polymarket
+  url: https://arxiv.org/abs/2606.19517v1
+  published: '2026-06-17'
+  summary: 'The digitization of financial markets has produced two classes of platforms that price, in
+    principle, the same state - contingent payoffs: centralized crypto-option exchanges and blockchain-based
+    prediction markets. This paper provides the first option-implied benchmark test of prediction-market
+    pricing for cryptocurrency threshold contracts. For each hour in a matched sample, we compare the
+    Polymarket Yes price with the discounted risk-neutral binary value implied by a listed Binance call
+    option on the same underlying, strike, and maturity, and study the gap between them. In the main Septembe'
+  related_strategies: []
+  status: intake
+  id: idea-0007
+- source: arxiv
+  category: q-fin.TR
+  title: Revisiting Trade-sign Long-memory and Square-root Law price impact
+  url: https://arxiv.org/abs/2606.16269v2
+  published: '2026-06-15'
+  summary: 'Starting with a coupled discrete reaction--diffusion formulation for the lit and latent order
+    books with non-uniformly sampled event times and meta-order source terms we show how two familiar
+    market-microstructure regularities can emerge from this framework: the long-memory of trade signs
+    associated with the Lillo--Mike--Farmer (LMF) theory and the square-root law (SQRL) of meta-order
+    impact. This uses the locally linear order book and constant participation-rate execution in the front
+    dynamics to reduce the dynamics to a Volterra equation whose leading-order solution then yields the
+    well know'
+  related_strategies: []
+  status: intake
+  id: idea-0008
+- source: arxiv
+  category: q-fin.TR
+  title: 'Trading in the Sunshine or in the Shade: Market Impact and Adverse Selection on Hyperliquid'
+  url: https://arxiv.org/abs/2606.15715v1
+  published: '2026-06-14'
+  summary: 'Sunshine trading theory predicts that publicly disclosing trading intentions can reduce adverse
+    selection and attract liquidity provision, lowering execution costs. Evidence is scarce, because explicit
+    preannouncement of large orders is rare in traditional markets. We study Hyperliquid, a fully on-chain
+    limit order book for cryptocurrency perpetual futures, where protocol-native TWAP orders disclose
+    their terms from inception and remain visible while active, a natural form of sunshine trading. Using
+    address-level data, we reconstruct 4.3 million hidden metaorders and compare them with 465,000 '
+  related_strategies:
+  - ssl_ar
+  - alpha_hunter_v2
+  - on_chain
+  status: intake
+  id: idea-0009
+- source: arxiv
+  category: q-fin.TR
+  title: 'Volatility Forecasting and Return Prediction under Market Regimes: Evidence from High-Frequency
+    Chinese Equity Data'
+  url: https://arxiv.org/abs/2606.09478v1
+  published: '2026-06-08'
+  summary: This study investigates whether regime-dependent volatility forecasting and machine-learning-based
+    return prediction can be jointly integrated to improve both statistical forecasting performance and
+    economic strategy outcomes in equity markets. Using high-frequency CSI 300 Index data from 2005 to
+    2023, a sequential twostage framework is developed. In the first stage, realized volatility is modeled
+    using regime-augmented HARQ specifications combined with Markov-switching GJR-GARCH filtering to capture
+    long-memory dynamics, asymmetry, and structural market regimes. In the second stage, volatilit
+  related_strategies: []
+  status: intake
+  id: idea-0010
+- source: arxiv
+  category: q-fin.TR
+  title: Axiomatic Market Making
+  url: https://arxiv.org/abs/2606.09454v1
+  published: '2026-06-08'
+  summary: 'This paper axiomatizes the bid-ask market maker''s quoting rule. A quoting rule maps the maker''s
+    state, namely inventory, belief, variance, trade intensity, and informed-trader fraction, to a bid-ask
+    pair. Eight natural axioms, together with six environmental assumptions on the maker''s inventory
+    cost, force a unique three-parameter family: the mid-quote is linear in inventory, and the spread
+    decomposes additively into inventory and adverse-selection components. Each of the three parameters
+    is identified from a distinct moment of the observable quoting rule, with the three identifications
+    mutual'
+  related_strategies: []
+  status: intake
+  id: idea-0011
+- source: arxiv
+  category: q-fin.TR
+  title: Proof of Stake economy under centralized exchanges--a mean field model
+  url: https://arxiv.org/abs/2606.09003v1
+  published: '2026-06-08'
+  summary: 'We consider the interaction between centralized trading and decentralized Proof of Stake (PoS)
+    blockchain ecosystems. Motivated by the increasing dominance of centralized exchanges and the institutionalization
+    of crypto markets, we study how trading activities on centralized exchanges affect staking behavior,
+    token allocation, and decentralization within a PoS blockchain. We formulate a continuous-time mean
+    field model, where the miners simultaneously act as validators in the PoS protocol and traders in
+    a centralized market with price impact. Under suitable assumptions, we establish the local '
+  related_strategies: []
+  status: intake
+  id: idea-0012
+- source: arxiv
+  category: q-fin.ST
+  title: 'Regime-Conditional Distributional Comparison of Trading Strategies: A GAMLSS/ZAGA Framework
+    Applied to the S&P 500'
+  url: https://arxiv.org/abs/2606.31251v1
+  published: '2026-06-30'
+  summary: Conventional comparisons of algorithmic trading strategies reduce each performance metric to
+    a single number over the full backtest horizon, thereby discarding information about how performance
+    varies with market conditions. This paper proposes a distributional framework that addresses this
+    shortcoming. A walk-forward backtest of 146 out-of-sample folds on the S&P 500 (2002--2025) is used
+    to compute the Adjusted Information Ratio ($IR^{\ast}$) for a polynomial Support Vector Machine strategy
+    (SVMP) and a buy-and-hold benchmark (BH) in each fold. The resulting $IR^{\ast}$ sequences are modelled
+  related_strategies: []
+  status: intake
+  id: idea-0013
+- source: arxiv
+  category: q-fin.ST
+  title: 'Heads, Not Backbones: Output Heads Dominate Architectures on Fat-Tailed Returns'
+  url: https://arxiv.org/abs/2606.30037v1
+  published: '2026-06-29'
+  summary: 'In a deep forecasting pipeline for fat-tailed financial returns at short horizons, which matters
+    more - the backbone architecture or the output head? We compare four modern backbones (TimesNet, DLinear,
+    N-BEATS, iTransformer) under three output heads: a point head, a single-Gaussian density head, and
+    a Gaussian mixture density head with K=4 components. On S and P 500 monthly log-returns (1871-2023)
+    under anchored walk-forward validation, the three heads form a strict gradient: switching from point
+    to Gaussian improves CRPS by about 1.3 percent; switching from Gaussian to mixture adds a further'
+  related_strategies: []
+  status: intake
+  id: idea-0014
+- source: arxiv
+  category: q-fin.ST
+  title: (In)Efficient Market States and Rough Volatility Detected via Grunwald-Letnikov Fractional Derivative
+  url: https://arxiv.org/abs/2606.27932v1
+  published: '2026-06-26'
+  summary: Testing self-similarity in fractional processes from a single observed trajectory is difficult
+    under long-range dependence, because the associated Kolmogorov--Smirnov (KS) statistic undergoes a
+    phase transition when $H>1/2$. In this regime, the classical limit collapses to a non-functional absolute
+    Gaussian law and finite-sample convergence becomes severely distorted. This paper introduces a regime-adaptive
+    KS/GL--KS framework based on the discrete Grünwald--Letnikov (GL) fractional derivative. The GL filter
+    removes the low-frequency long-memory singularity while preserving the finite-dimensio
+  related_strategies: []
+  status: intake
+  id: idea-0015
+- source: arxiv
+  category: q-fin.ST
+  title: 'CryptoGAT: Are Time Series Models Effective for Cryptocurrency Forecasting?'
+  url: https://arxiv.org/abs/2606.27670v1
+  published: '2026-06-26'
+  summary: Cryptocurrency price prediction is a significant challenge in quantitative investment. In recent
+    years, time series models have made significant progress in financial forecasting tasks, especially
+    in the stock market. Despite the growing performance over the past few years, we question the validity
+    of this line of research in cryptocurrency prediction. Specifically, time series models (e.g., LSTM,
+    GRU, and Transformers) are effective at extracting temporal relationships in stock market data. However,
+    in pure price-based cryptocurrency prediction, facing data with extreme volatility and wild sw
+  related_strategies: []
+  status: intake
+  id: idea-0016
+- source: arxiv
+  category: q-fin.ST
+  title: 'Continuous Hidden Markov Models for Equity Returns: Heavy-Tail Emission Families and Regime-Conditional
+    Value-at-Risk'
+  url: https://arxiv.org/abs/2606.23492v1
+  published: '2026-06-22'
+  summary: 'Synthetic generators of daily equity returns let practitioners stress test, backtest, and
+    design scenarios that a single realized market history cannot supply, but only if the generator reproduces
+    the stylized facts of real returns: heavy tails, negligible linear autocorrelation, and slow decay
+    of the absolute-return autocorrelation. Hidden Markov models with few Gaussian states were long thought
+    unable to reproduce that slow decay, and the standard fix was to abandon them for more complex hidden
+    semi-Markov models. We revisit this issue with a continuous hidden Markov model whose regime chain'
+  related_strategies: []
+  status: intake
+  id: idea-0017
+- source: arxiv
+  category: q-fin.ST
+  title: 'Leakage-Aware Benchmarking of LLM Forecasting: Real-Time Nowcasts as the Decision-Time Input
+    for Macro Factor Ranking'
+  url: https://arxiv.org/abs/2606.22719v1
+  published: '2026-06-21'
+  summary: 'Forecasting benchmarks for retrieval-augmented LLMs routinely confound model capability with
+    information leakage: features labeled with a target''s timestamp are often not observable at the system''s
+    decision time. We study leakage-controlled equity factor ranking with a retrieval-augmented 7B open-source
+    LLM forecaster. At each month-end from 2023-04 to 2026-03, the forecaster observes only decision-time
+    information: lag-shifted FRED macro variables, recent macro-event summaries, and the Cleveland Fed''s
+    archived daily CPI nowcast for unreleased current-month inflation. A macro-analog retrieval '
+  related_strategies: []
+  status: intake
+  id: idea-0018
+- source: arxiv
+  category: q-fin.ST
+  title: 'Crashing Together, Rallying Apart: Dynamic Conditional Tail Dependence in Cryptocurrency Markets'
+  url: https://arxiv.org/abs/2606.16840v1
+  published: '2026-06-15'
+  summary: Cryptocurrency markets are prone to violent, synchronised drawdowns, challenging the claim
+    that a basket of crypto-assets offers genuine internal diversification. Because standard covariance-based
+    metrics fail to capture asymptotic tail dependence, they systematically understate systemic risk and
+    overstate diversification benefits precisely when markets crash. This study maps the conditional dependence
+    structure of the cryptocurrency market directly in the joint tails, isolating direct extremal linkages
+    from those mediated by the rest of the system. We analyse the daily returns of the thirteen
+  related_strategies: []
+  status: intake
+  id: idea-0019
+- source: arxiv
+  category: q-fin.ST
+  title: 'Reverse Stress Testing for Multivariate Scenarios: A Conditional Framework for Stressed Time
+    Series'
+  url: https://arxiv.org/abs/2606.09274v1
+  published: '2026-06-08'
+  summary: This paper develops a methodological framework for reverse stress testing (RST) in which a
+    multivariate stress scenario, coherent with the empirical dependence structure of a market, is reconstructed
+    from a single exogenous shock prescribed on one asset class. The problem is formulated as the maximisation
+    of the conditional density given the imposed shock, and is solved under three progressively weaker
+    distributional assumptions. In the parametric setting, joint Gaussianity of the returns yields a closed-form
+    modal scenario coinciding with the conditional mean of the non-shocked components. In
+  related_strategies: []
+  status: intake
+  id: idea-0020
+- source: arxiv
+  category: q-fin.ST
+  title: 'Cross-sectional topological anomaly scores and intraday return predictability in the S&P 500:
+    A BallMapper, decoder-conditional VAE, and Function-on-Function regression approach'
+  url: https://arxiv.org/abs/2606.08586v1
+  published: '2026-06-07'
+  summary: Anomaly detection methods in financial time series score statistically unusual observations
+    in observable data, not topologically misexpected persistent deviations in the latent structure of
+    co-movement. This study constructs a stock-level topological anomaly score jointly conditioned on
+    market-level topological structure and cross-sectional peer context, and tests whether its history
+    carries predictive content for return curves. Intraday data for ten liquid S&P 500 constituents (April
+    2025--March 2026) are embedded via Takens delay embedding, graphed by BallMapper, and scored by three
+    decoder
+  related_strategies:
+  - ssl_ar
+  status: intake
+  id: idea-0021
+- source: arxiv
+  category: q-fin.PM
+  title: Data-Driven Duration Management -- Term Structure Forecasting Using Machine Learning
+  url: https://arxiv.org/abs/2606.26815v1
+  published: '2026-06-25'
+  summary: This paper compares different methods for forecasting the term structure of U.S. and European
+    zero-coupon government bonds using both traditional econometric and Machine Learning (ML) approaches.
+    We compare classical models (e.g., Dynamic Nelson-Siegel (DNS) and Principal Component Analysis (PCA))
+    with different Neural Network (NN) architectures, including those inspired by the classical models,
+    on the U.S. Treasury market and bonds issued by the European Central Bank (ECB). To enhance predictive
+    performance, macroeconomic variables are incorporated. The findings for both markets are separatel
+  related_strategies: []
+  status: intake
+  id: idea-0022
+- source: arxiv
+  category: q-fin.PM
+  title: A Two-Stage Decision Support System for Sustainability-Aware Long Short Portfolio Optimization
+  url: https://arxiv.org/abs/2606.25696v1
+  published: '2026-06-24'
+  summary: This paper proposes a two-stage decision support system for long-short portfolio optimization
+    under environmental, social, and governance (ESG) considerations. In the first stage, assets are evaluated
+    using a multi-criteria procedure based on TODIMSort, with criterion weights derived using the MEREC
+    (Removal Effects of Criteria) method. This allows assets to be assigned to classes ordered according
+    to preferences that respond to market conditions and investor priorities, thus generating sets of
+    long and short opportunities that dynamically adapt to the prevailing regime. In the second stage,
+    w
+  related_strategies: []
+  status: intake
+  id: idea-0023
+- source: arxiv
+  category: q-fin.PM
+  title: 'Discovery under Hypothesis Redundancy: A Geometric Theory of Discovery Bottlenecks'
+  url: https://arxiv.org/abs/2606.14386v1
+  published: '2026-06-12'
+  summary: 'Scientific discovery saturates when new hypotheses cease to provide independent information,
+    even if the nominal hypothesis space remains large. We study hybrid discovery systems that combine
+    structured local search with LLM-generated non-local proposals and pose the Search Compression Hypothesis:
+    non-local exploration helps only when three geometric conditions co-occur: spectral compression, orthogonal
+    escape from the explored span, and residual signal alignment with the target. We formalize these conditions,
+    derive necessary conditions for hybrid advantage, and test the mechanism in controll'
+  related_strategies: []
+  status: intake
+  id: idea-0024
+- source: arxiv
+  category: q-fin.PM
+  title: Addressing Market Regime Changes and Heavy-Tailed Returns in Portfolio Optimization via Bayesian
+    VAR and Elliptical Black-Litterman
+  url: https://arxiv.org/abs/2606.09104v1
+  published: '2026-06-08'
+  summary: Deep reinforcement learning (DRL) frameworks for portfolio optimization have shown promise
+    for their ability to learn allocation rules dynamically from market data. However, these models fail
+    to account for fat-tailed returns, which characterize actual market behavior with more frequent extreme
+    events. Furthermore, historical data is treated homogeneously, without accounting for temporal importance,
+    leading models to fail during regime changes. We propose a new BAVAR-BLED algorithm that combines
+    methods derived from Bayesian-Averaging Vector Autoregressive (BAVAR) and the Black-Litterman model
+  related_strategies: []
+  status: intake
+  id: idea-0025
+- source: arxiv
+  category: q-fin.PM
+  title: 'Stock Investment: The p-index Approach'
+  url: https://arxiv.org/abs/2606.08569v1
+  published: '2026-06-07'
+  summary: 'This paper has used European put option to construct the p-index risk measure to evaluate
+    the performance of different investment strategies in China''s SSE 50 index and the US SP500 index
+    during 2018-2023. The p-index measures the insurance fee for each insured dollar to guarantee that
+    the asset achieves at least a delta rate of return on a specified future date. It is found that with
+    the fair price strategy, one-week and one-month holding periods can earn more, and among seven economic
+    sectors, materials sector stocks generated highest annualized rates of return: 11.04% (one-week period),
+    11.'
+  related_strategies: []
+  status: intake
+  id: idea-0026
