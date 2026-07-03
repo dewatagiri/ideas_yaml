@@ -4,6 +4,31 @@ Pulls alpha ideas from academic/strategy databases and writes a structured
 `ideas.yaml` for BRUTEFORCE intake. Nothing here is backtested — every entry
 gets `status: intake` until you run it through your own fresh IS/OOS split.
 
+## Acknowledgements & attribution
+
+All ideas surfaced by this tool originate from third-party sources, not
+from this pipeline or from Azman. Specifically:
+
+- **arXiv** (arxiv.org, operated by Cornell University) — paper titles,
+  abstracts, and author names pulled via arXiv's public API remain the
+  intellectual property of their respective authors. This tool only stores
+  a truncated abstract (≤600 chars) and a link back to the original paper —
+  it does not reproduce full papers.
+- **Quantpedia** (quantpedia.com) — strategy summaries, where scraping
+  succeeds, belong to Quantpedia and the academic papers they're derived
+  from. Full strategy descriptions and backtests are Quantpedia's paid
+  product; this tool does not attempt to bypass that.
+
+Every entry in `ideas.yaml` carries its own `source` and `url` field back to
+the original. When writing up any idea for a BRUTEFORCE backtest brief (see
+example below), always cite that source explicitly and treat any reported
+performance numbers as the original authors' in-sample results — not yours,
+and not validated until you rerun your own IS/OOS split.
+
+**This tool is a discovery aid, not a research product.** It does not claim
+credit for any idea it surfaces — it just makes third-party research easier
+to find and triage.
+
 ## What this actually does
 
 It's a scout. Every run, it goes out to arXiv (the free repository where
